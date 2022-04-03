@@ -63,7 +63,7 @@ OWNER_ID = int(os.environ["OWNER_ID"])
 LIVE_CHATS = []
 
 START_TEXT = """
-Hi <b>{}</b> 
+Hi <b>{}</b> 👋
 
 I can play music & stream videos in Telegram group voice chats. 
 
@@ -73,7 +73,7 @@ Make your own bot using below source code.
 START_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("👥 Support", url="https://t.me/NobisukiSupport"),
+            InlineKeyboardButton("📨 Support", url="https://t.me/NobisukiSupport"),
             InlineKeyboardButton("🛠 Source Code", url="https://github.com/godofanjal/Music-Player")
         ]
     ]
