@@ -73,8 +73,8 @@ Make your own bot using below source code.
 START_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("📨 Support", url="https://t.me/NobisukiSupport"),
-            InlineKeyboardButton("🛠 Source Code", url="https://github.com/godofanjal/Music-Player")
+            InlineKeyboardButton("📨 Support", url="https://t.me/Serena_Support"),
+            InlineKeyboardButton("🎤 Add Me To Your Group", url="https://t.me/serenamusicbot?startgroup=true")
         ]
     ]
 )
